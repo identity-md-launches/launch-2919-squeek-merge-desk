@@ -1,0 +1,37 @@
+{
+  "release": "stream-game-sepolia-test-20261026-01",
+  "chainId": 11155111,
+  "source": "https://api.squeekchain.com/v1/economy/state",
+  "checkedAt": "2026-11-03",
+  "identities": {
+    "core": "0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44",
+    "tokenFactory": "0x779a302adbaa9c8a3da45ef48ad67e6a45fcef29",
+    "token": "0x5501e1fa81be1c3f49225fa7668da0245d07db60",
+    "genesis": "0xcb98349c134ab983da5bfd80527dfe2552bdb70f",
+    "mining": {
+      "proxy": "0xcd46990f8349057335289ef282c276204b6cdc62",
+      "implementation": "0x62d25dc1a24033a80edcc4b2d2ffe9348290cc4c",
+      "implementationVersion": "9",
+      "storageLayoutDigest": "0x136850fc0e19543752b7382cde164f10588dc3b4648e7d704f2f06394ead8b90"
+    },
+    "staking": {
+      "proxy": "0x4b67b739dfd832f4eac67a7aa3bc244fb74cea4f",
+      "implementation": "0xbbb816616d8840bd98094bf5a20f208df089230b",
+      "implementationVersion": "2",
+      "storageLayoutDigest": "0x39f298bf725abe5173d3a3b8ded2d4776d4c53fc9923f0027170dd458210a6f8"
+    },
+    "launch": "0x1ff6485abfbb2d183cd673d78e1ab31c098e04dd"
+  },
+  "coreImplementation": {
+    "address": "0x284747C4664AF2203E7A90a2Ee76f22b6B5e6889",
+    "version": "3",
+    "digest": "0x9a9c008e029460808209571703fbf2679785874e0e6d3232f16a864d12abcb20"
+  },
+  "runtimeHashes": {
+    "coreImplementation": "0xd8f2fb3c7dcf63e6dc0378ce5f85ceea52a876ae1f0cd66ac8631c3103371f8a",
+    "miningImplementation": "0x31089448b1c283d95f2c18f0ff1564cbcb6eb768f3e355e3b6bde114a2fb4a56",
+    "stakingImplementation": "0xc483f3d2e975ef48012c3f0c36b1dcf537967ef2d540b25423da96e89b5297eb",
+    "genesis": "0xbf4248fb7bf92f824c01eabcd798c08e08f6ba1dde84b2d2579d9dd59547a92a",
+    "token": "0x36c1dd05e8287e0af23d46e37e9e2a391b62f9c95fe3d4c130f0382d6d163ea7"
+  }
+}
